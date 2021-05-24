@@ -1,0 +1,56 @@
+/**************************************/
+            /* IMPORTS */
+/**************************************/
+
+
+/*********** FONTS ***********/
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/**************************************/
+         /* GLOBAL STYLES */
+/**************************************/
+
+
+/*********** VARIABLES ***********/
+
+:root {
+
+  /* BREAKPOINTS */
+  --mobile: 375px;
+  --desktop: 1440px;
+
+  /* COLORS */
+
+  /* Primary */
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+
+  /* Paragraphs */
+  --tranparent-white: hsla(0, 0%, 100%, 0.75);
+
+  /* Background, Headings, Buttons */
+  --very-light-gray: hsl(0, 0%, 95%);
+
+  /* TYPOGRAPHY */
+
+  /* Font Size */
+  --type-size: 15px;
+
+  /* Fonts */
+  --big-shoulders: 'Big Shoulders Display', cursive;
+  --lexend: 'Lexend Deca', sans-serif;
+
+  /* font Weights */
+  --regular: 400;
+  --bold: 700;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: var(--type-size);
+  font-family: var(--lexend);
+  font-weight: var(--regular);
+}
