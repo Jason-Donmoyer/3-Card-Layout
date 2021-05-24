@@ -53,4 +53,65 @@ body {
   font-size: var(--type-size);
   font-family: var(--lexend);
   font-weight: var(--regular);
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--very-light-gray);
 }
+
+h2 {
+  font-size: 2rem;
+  font-family: var(--big-shoulders);
+  font-weight: var(--bold);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3.5rem;
+  line-height: 1.5rem;
+  color: var(--tranparent-white);
+}
+
+
+#sedan-card {
+  background-color: var(--bright-orange);
+  border-radius: 4px 4px 0 0;
+}
+
+#suv-card {
+  background-color: var(--dark-cyan);
+}
+
+#luxury-card {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0 4px 4px;
+}
+
+.icon {
+  height: 4rem;
+  width: 4rem;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+
+#sedan-icon {
+  background-image: url('../images/icon-sedans.svg');
+}
+
+#suv-icon {
+  background-image: url('../images/icon-suvs.svg');
+}
+
+#luxury-icon {
+  background-image: url('../images/icon-luxury.svg');
+}
+
+
+
