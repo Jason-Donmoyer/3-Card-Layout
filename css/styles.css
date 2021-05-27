@@ -59,30 +59,35 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: var(--big-shoulders);
   font-weight: var(--bold);
+  margin: 1.75rem 0 2rem 0;
 }
 
 main {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 3.5rem 1.5rem 3.5rem 1.5rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3.5rem;
+  padding: 3.25rem;
   line-height: 1.5rem;
   color: var(--tranparent-white);
+}
+
+.card p {
+  margin-bottom: 1.5rem;
 }
 
 
 #sedan-card {
   background-color: var(--bright-orange);
-  border-radius: 4px 4px 0 0;
+  border-radius: 6px 6px 0 0;
 }
 
 #suv-card {
@@ -91,7 +96,7 @@ main {
 
 #luxury-card {
   background-color: var(--very-dark-cyan);
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 6px 6px;
 }
 
 .icon {
@@ -113,5 +118,33 @@ main {
   background-image: url('../images/icon-luxury.svg');
 }
 
+.btn {
+  background-color: var(--very-light-gray);
+  border: none;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 1.25rem;
+}
 
 
+
+#sedan-btn {
+  color: var(--bright-orange);
+}
+
+#suv-btn {
+  color: var(--dark-cyan);
+}
+
+#luxury-btn {
+  color: var(--very-dark-cyan);
+}
+
+footer {
+  color: #000;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--very-dark-cyan);
+}
